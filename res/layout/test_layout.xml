@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/test_list_screen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    android:clickable="false" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+        android:clickable="false"
+        android:fadeScrollbars="false"
+        android:showDividers="none">
+         <com.gmail.sihuih.ECSEventsFeed.indexableListView.IndexableListView
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:id="@+id/listview"
+         android:background="@color/Green"
+         android:dividerHeight="15dp"
+         android:divider="@color/divider"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

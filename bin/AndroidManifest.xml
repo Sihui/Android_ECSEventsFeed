@@ -1,0 +1,311 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gmail.sihuih.ECSEventsFeed"
+    android:versionCode="1"
+    android:versionName="1.0"
+     >
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name">
+         <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".MyFragmentActivity"
+            android:screenOrientation="portrait"
+           android:theme="@style/StyledIndicators">
+             <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="TestFragment1" />
+        </activity>
+        <activity
+            android:name=".about_Fragment"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+         
+         <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.ECS_Winter_Workshop_Pic"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+          <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.acmcoding"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+          <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.dance"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+              
+          </activity>
+         
+         <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.dia"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+          <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.ecsdean_Pic"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+         <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.linuxamazon"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+          <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.grad"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+        
+          <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.cloudcomputing"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+          <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.ccadvice"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+          <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.careerdev_Pic"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+          <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.att_Pic"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+        
+          <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.acmparson"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.ireland_internship_program_Pic"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+          <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.ieeeit"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+          <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.ieeetech"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+          <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.lanparty_Pic"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+          <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.linucamazon"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+          <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.luckwarm_Pic"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+          <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.par"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+          <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.same_Pic"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+          <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.shefourth"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+          <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.shegeneralmeeting"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+         <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.displayPic"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+          <activity
+            android:name="com.gmail.sihuih.ECSEventsFeed.pictureClasses.team"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MyFragmentActivity" >
+              <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+ 
+    </application>
+    
+</manifest>
